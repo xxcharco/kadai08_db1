@@ -6,10 +6,10 @@ $pdo = null;
 $error_messages = array();
 
 // データベース接続情報
-$db_server = 'mysql3101.db.sakura.ne.jp';  // さくらのサーバー名
-$db_name = 'tawagram_bbs';
-$db_user = 'tawagram_bbs';
-$db_password = 'fdms1995';
+$db_server = '';  // さくらのサーバー名
+$db_name = '';
+$db_user = '';
+$db_password = '';
 
 // DB接続
 try {
