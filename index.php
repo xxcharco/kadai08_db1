@@ -12,10 +12,10 @@ function db_conn()
 {
     try {
     　　 // db_name, db_host, db_id, db_pwをご自身のものに書き換えて使用して下さい
-        $db_name =  'tawagram_bbs';            //データベース名
-        $db_host =  'mysql3101.db.sakura.ne.jp';  //DBホスト
-        $db_id =    'fwy80902';                //さくらサーバで登録しているアカウント名
-        $db_pw =    'fdms1995';           //さくらサーバのデータベースにアクセスするためのパスワード
+        $db_name =  '';            //データベース名
+        $db_host =  '';  //DBホスト
+        $db_id =    '';                //さくらサーバで登録しているアカウント名
+        $db_pw =    '5';           //さくらサーバのデータベースにアクセスするためのパスワード
         
         $server_info ='mysql:dbname='.$db_name.';charset=utf8;host='.$db_host;
         $pdo = new PDO($server_info, $db_id, $db_pw);
